@@ -1,8 +1,8 @@
 FROM node:14-slim
 
 LABEL version="0.1" \
-    description="Snapsen songbook for Fyysikkokilta" \
-    org.opencontainers.image.source="https://github.com/fyysikkokilta/snapsen-web"
+    description="Online Fiisut songbook based on Snapsen" \
+    org.opencontainers.image.source="https://github.com/fyysikkokilta/fiisut-web"
 
 WORKDIR /usr/src/app
 
