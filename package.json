@@ -3,7 +3,7 @@
   "private": true,
   "description": "A digital songbook web-app",
   "version": "0.1.0",
-  "author": "Rasmus Eskola <fruitiex@gmail.com>",
+  "author": "FK Tech Support <it@fyysikkokilta.fi>",
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.4",
     "@material-ui/core": "^3.9.3",
