@@ -45,7 +45,6 @@ export const songPageQuery = graphql`
         lyrics
         melody
         type
-        musicalKey
       }
     }
   }
