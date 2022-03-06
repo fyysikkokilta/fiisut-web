@@ -31,9 +31,9 @@ module.exports = {
         short_name: `FiisutWeb`,
         start_url: `/`,
         background_color: `#ac6a4a`,
-        theme_color: `#795548`,
+        theme_color: `#201e1e`,
         display: `minimal-ui`,
-        icon: `src/images/snapsen-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/fiisut-icon.svg`, // This path is relative to the root of the site.
         display: `standalone`,
       },
     },
