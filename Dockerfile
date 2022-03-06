@@ -1,4 +1,4 @@
-FROM node:14.16-slim
+FROM node:14-bullseye-slim
 
 LABEL version="0.1" \
     description="Online Fiisut songbook based on Snapsen" \
@@ -7,10 +7,8 @@ LABEL version="0.1" \
 WORKDIR /usr/src/app
 
 # Optimise building by first installing deps.
-COPY package*.json ./
-COPY yarn.lock ./
-
-RUN apt-get update || : && apt-get install python3 -y && yarn
+COPY package.json yarn.lock ./
+RUN yarn install
 
 COPY . .
 RUN npm run build
