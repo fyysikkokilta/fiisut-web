@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#ac6a4a`,
         theme_color: `#201e1e`,
         display: `minimal-ui`,
-        icon: `src/images/fiisut_icon.svg`, // This path is relative to the root of the site.
+        icon: `src/images/fiisut_icon.png`, // This path is relative to the root of the site.
         display: `standalone`,
       },
     },
