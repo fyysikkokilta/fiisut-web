@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Snapsen`,
-    description: `Snapsen songbook`,
-    author: `FruitieX`,
+    title: `FiisutWeb`,
+    description: `Fiisut songbook`,
+    author: `FK Tech Support`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Snapsen`,
-        short_name: `Snapsen`,
+        name: `FiisutWeb`,
+        short_name: `FiisutWeb`,
         start_url: `/`,
         background_color: `#ac6a4a`,
         theme_color: `#795548`,
