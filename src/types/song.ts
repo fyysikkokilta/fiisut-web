@@ -7,5 +7,4 @@ export interface Song {
   lyrics: string
   melody: string
   type: string
-  musicalKey: string
 }
